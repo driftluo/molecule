@@ -42,7 +42,7 @@ table New {
 }
 ```
 
-Like the scheme in the example above, `Old` can use the `from_compatible_slice` api to read `New's` data.At the same time, the structure will have APIs such as `count_extra_fields`/`has_extra_fields`/`has_extra_fields` to let users know that there is extra data in the read data. It is currently compatible with reading.
+Like the scheme in the example above, `Old` can use the `from_compatible_slice` api to read `New`'s data. At the same time, the structure will have APIs such as `count_extra_fields`/`has_extra_fields`/`has_extra_fields` to let users know that there is extra data in the read data. It is currently compatible with reading.
 
 #### Reader
 ```rust
